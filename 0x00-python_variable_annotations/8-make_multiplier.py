@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    Callable function
+   this rajes float type-annotated function make_multiplier
 """
 from typing import Callable
 

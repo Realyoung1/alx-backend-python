@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    Mixed Tuple
+    different types of annotated function to_kv
 """
 from typing import Union, Tuple
 

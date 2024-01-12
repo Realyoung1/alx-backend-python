@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    Handle of string with annotations
+    thr beginning of basic annotation concat
 """
 
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    List of floats annotations
+    type-annotated function sum_list and take a list input_list
 """
 from typing import List
 

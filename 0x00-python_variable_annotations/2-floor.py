@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    Truncate float to integer
+    types of annonciation floor
 """
 
 

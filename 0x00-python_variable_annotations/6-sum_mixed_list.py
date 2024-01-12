@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    Mixed lists
+    tyies of annotated function sum_mixed_list
 """
 from typing import Union, List
 

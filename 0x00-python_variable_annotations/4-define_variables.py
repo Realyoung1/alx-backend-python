@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    Variables to annotate
+    Variables to annotate definitions
 """
 
 

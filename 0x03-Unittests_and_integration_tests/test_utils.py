@@ -12,7 +12,7 @@ from parameterized import parameterized
 
 class TestAccessNestedMap(unittest.TestCase):
     """
-    Tests the access_nested_map function
+    Tests the funcs
     """
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
@@ -22,7 +22,7 @@ class TestAccessNestedMap(unittest.TestCase):
     def test_access_nested_map(self, nested_map: Mapping,
                                path: Sequence, expected: int) -> None:
         """
-        Test the access_nested_map method.
+        Test the mets
         Args:
             nested_map (Dict): A dictionary that may have nested dictionaries
             path (List, tuple, set): Keys to get to the required value in the
@@ -38,7 +38,7 @@ class TestAccessNestedMap(unittest.TestCase):
     def test_access_nested_map_exception(self, nested_map: Mapping,
                                          path: Sequence) -> None:
         """
-        Test the access_nested_map method raises an error when expected to
+        Test the mets raises an error when expected to
         Args:
             nested_map (Dict): A dictionary that may have nested dictionaries
             path (List, tuple, set): Keys to get to the required value in the

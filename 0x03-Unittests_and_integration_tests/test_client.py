@@ -10,7 +10,7 @@ from fixtures import TEST_PAYLOAD
 
 class TestGithubOrgClient(unittest.TestCase):
     """
-    mets testing the GithubOrgClient class methods
+    Test the GithubOrgClient class methods
     """
     @parameterized.expand([
         ("google"),

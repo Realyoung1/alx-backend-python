@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-the first unit test for
+the first unit test for and creating class that inherits
 """
 import unittest
 import requests

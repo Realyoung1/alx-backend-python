@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Test the utils """
+""" I am here Testing all the clientss """
 
 
 import requests
@@ -14,7 +14,7 @@ from fixtures import TEST_PAYLOAD
 
 
 class TestGithubOrgClient(unittest.TestCase):
-    """ Test that json can be got """
+    """ I Tested that json can be gotten """
 
     @parameterized.expand([
         ("google", {"google": True}),
@@ -39,7 +39,7 @@ class TestGithubOrgClient(unittest.TestCase):
 
     @patch('client.get_json')
     def test_public_repos(self, get_json_mock):
-        """ test the public repos """
+        """ i actually tested the public repos """
         jeff = {"name": "Jeff", "license": {"key": "a"}}
         bobb = {"name": "Bobb", "license": {"key": "b"}}
         suee = {"name": "Suee"}
@@ -72,7 +72,7 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        """ prepare for testing """
+        """ i make sure i prepare for testing """
         org = TEST_PAYLOAD[0][0]
         repos = TEST_PAYLOAD[0][1]
         org_mock = Mock()
@@ -90,7 +90,7 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        """ unprepare for testing """
+        """ i unprepare for testing """
         cls.get_patcher.stop()
 
     def test_public_repos(self):
@@ -104,7 +104,7 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
                                    call(self.org_payload["repos_url"])])
 
     def test_public_repos_with_license(self):
-        """ public repos test """
+        """ i did public repos test """
         y = GithubOrgClient("x")
         self.assertEqual(y.org, self.org_payload)
         self.assertEqual(y.repos_payload, self.repos_payload)
